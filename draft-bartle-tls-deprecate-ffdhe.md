@@ -24,7 +24,7 @@ informative:
       - ins: J. Mittmann
       - ins: J. Schwenk
 
-<!-- TODO(cbartle): add Nimrod and Filippo -->
+<!-- TODO(cbartle): add others-->
 author:
 	-
 		ins: C. Bartle
