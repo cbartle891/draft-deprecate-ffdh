@@ -1,7 +1,7 @@
 ---
 title: Deprecating FFDH(E) Ciphersuites in TLS
 abbrev: Deprecating FFDH(E)
-docname: draft-wood-tls-deprecate-ffdhe
+docname: draft-bartle-tls-deprecate-ffdhe-latest
 date:
 category: std
 
@@ -24,12 +24,13 @@ informative:
       - ins: J. Mittmann
       - ins: J. Schwenk
 
+<!-- TODO(cbartle): add Nimrod and Filippo -->
 author:
 	-
-		ins: C. A. Wood
-		name: Christopher A. Wood
-		org: Cloudflare
-		email: caw@heapingbits.net
+		ins: C. Bartle
+		name: Carrick Bartle
+		org: Apple, Inc.
+		email: cbartle@apple.com
 
 --- abstract
 
