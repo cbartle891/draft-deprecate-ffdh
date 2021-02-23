@@ -1,4 +1,4 @@
 # License
 
 See the
-[guidelines for contributions](https://github.com/chris-wood/deprecate-ffdhe/blob/master/CONTRIBUTING.md).
+[guidelines for contributions](https://github.com/cbartle891/draft-deprecate-ffdhe/blob/master/CONTRIBUTING.md).

@@ -2,9 +2,9 @@
 
 This is the working area for the individual Internet-Draft, "Deprecating FFDH(E) Ciphersuites in TLS".
 
-* [Editor's Copy](https://chris-wood.github.io/deprecate-ffdhe/#go.draft-wood-tls-deprecate-ffdhe.html)
-* [Individual Draft](https://tools.ietf.org/html/draft-wood-tls-deprecate-ffdhe)
-* [Compare Editor's Copy to Individual Draft](https://chris-wood.github.io/deprecate-ffdhe/#go.draft-wood-tls-deprecate-ffdhe.diff)
+* [Editor's Copy](https://cbartle891.github.io/draft-deprecate-ffdhe/#go.draft-bartle-tls-deprecate-ffdhe.html)
+* [Individual Draft](https://tools.ietf.org/html/draft-bartle-tls-deprecate-ffdhe)
+* [Compare Editor's Copy to Individual Draft](https://cbartle891.github.io/draft-deprecate-ffdhe/#go.draft-bartle-tls-deprecate-ffdhe.diff)
 
 ## Building the Draft
 
@@ -21,4 +21,4 @@ This requires that you have the necessary software installed.  See
 ## Contributing
 
 See the
-[guidelines for contributions](https://github.com/chris-wood/deprecate-ffdhe/blob/master/CONTRIBUTING.md).
+[guidelines for contributions](https://github.com/cbartle891/draft-deprecate-ffdhe/blob/master/CONTRIBUTING.md).
