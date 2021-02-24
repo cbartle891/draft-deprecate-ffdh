@@ -24,13 +24,18 @@ informative:
       - ins: J. Mittmann
       - ins: J. Schwenk
 
-<!-- TODO(cbartle): add others-->
 author:
-	-
-		ins: C. Bartle
-		name: Carrick Bartle
-		org: Apple, Inc.
-		email: cbartle@apple.com
+ -
+       ins: C. Bartle
+       name: Carrick Bartle
+       organization: Apple, Inc.
+       email: cbartle@apple.com
+
+ -
+       ins: N. Aviram
+       name: Nimrod Aviram
+       organization:
+       email: nimrod.aviram@gmail.com
 
 --- abstract
 
