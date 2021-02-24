@@ -37,6 +37,12 @@ author:
        organization:
        email: nimrod.aviram@gmail.com
 
+ -
+       ins: F. Valsorda
+       name: Filippo Valsorda
+       organization:
+       email: ietf@filippo.io
+
 --- abstract
 
 This document deprecates and discourages use of finite field and elliptic curve
