@@ -69,13 +69,13 @@ reuse, either via non-ephemeral cipher suites or reused keys with ephemeral ciph
 suites, can lead to timing side channels that may leak connection secrets.
 (Note that Raccoon only applies to finite field DH cipher suites, and not those
 based on elliptic curves.) While these side channels can be avoided in implementations,
-doing is demonstrably difficult given the prevalence of related side channels in
+doing so is demonstrably difficult given the prevalence of related side channels in
 TLS implementations.
 
 Given these problems, this document updates {{!RFC4346}}, {{!RFC5246}}, {{!RFC4162}},
 {{!RFC6347}}, {{!RFC5932}}, {{!RFC5288}}, {{!RFC6209}}, {{!RFC6367}}, {{!RFC8422}},
-{{!RFC5289}}, and {{!RFC5469}} to deprecate, prohibiting and discouraging, cipher
-suites with key reuse.
+{{!RFC5289}}, and {{!RFC5469}} to deprecate cipher suites with key reuse, prohibiting
+and discouraging their use.
 
 ## Requirements
 
@@ -200,9 +200,9 @@ connections. This includes all cipher suites listed in the following table.
 
 Clients and servers MUST NOT reuse ephemeral DHE or ECDHE public keys across
 TLS connections for all existing (and future) TLS versions. Doing so invalidates
-forward secret properties of these connections. In the case of DHE (finite field
+forward secrecy properties of these connections. In the case of DHE (finite field
 DH) cipher suites, such reuse may also lead to vulnerabilities such as those
-use in the {{Raccoon}} attack. See {{sec-considerations}} for related discussion.
+used in the {{Raccoon}} attack. See {{sec-considerations}} for related discussion.
 
 # IANA Considerations
 
