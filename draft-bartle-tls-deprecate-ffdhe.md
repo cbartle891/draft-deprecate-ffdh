@@ -45,7 +45,7 @@ author:
 
 --- abstract
 
-This document deprecates and discourages use of finite field and elliptic curve
+This document deprecates and discourages the use of finite field and elliptic curve
 Diffie Hellman cipher suites that have known vulnerabilities or improper security
 properties when implemented incorrectly.
 
@@ -218,10 +218,11 @@ Raccoon revealed that timing side channels in processing TLS premaster secrets m
 exploited to reveal the encrypted premaster secret.
 
 Raccoon does not apply to non-ephemeral elliptic curve DH suites, since the same timing
-side channel does not exist. However, such re-use is still discouraged, and thus deprecated
+side channel does not exist. However, such re-use is still discouraged and thus deprecated
 in this document.
 
 # Acknowledgments
 
 This document was inspired by discussion on the TLS WG mailing list and
-a suggestion by Filippo Valsorda following release of the {{Raccoon}} attack.
+a suggestion by Filippo Valsorda following the release of the {{Raccoon}} attack. Thanks
+to Christopher A. Wood for writing up the initial draft of this document.
