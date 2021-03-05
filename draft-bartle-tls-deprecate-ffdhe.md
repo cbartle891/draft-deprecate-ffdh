@@ -15,7 +15,7 @@ informative:
   Raccoon:
     title: "Raccoon Attack: Finding and Exploiting Most-Significant-Bit-Oracles in TLS-DH(E)"
     target: https://raccoon-attack.com/RacoonAttack.pdf
-    date: 2012-08-01
+    date: 2020-09-09
     author:
       - ins: R. Merget
       - ins: M. Brinkmann
