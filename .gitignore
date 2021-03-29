@@ -16,3 +16,4 @@ report.xml
 venv/
 lib
 draft-bartle-tls-deprecate-ffdhe.xml
+*.DS_Store
