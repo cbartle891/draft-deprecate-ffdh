@@ -77,9 +77,10 @@ DH, public key reuse, either via non-ephemeral cipher suites or reused keys with
 ephemeral cipher suites, can lead to timing side channels that may leak connection
 secrets. For elliptic curve DH, invalid curve attacks broadly follow the same
 pattern, where a long-lived secret is extracted using side channels {{ICA}},
-further demostrating the security risk of reusing public keys. While both side
-channels can be avoided in implementations, doing so is demonstrably difficult
-given the prevalence of related side channels in TLS implementations.
+further demonstrating the security risk of reusing public keys. While both side
+channels can be avoided in implementations, experience shows that in practice,
+implementations may fail to thwart such attacks due to the complexity of the
+required mitigations.
 
 Given these problems, this document updates {{!RFC4346}}, {{!RFC5246}}, {{!RFC4162}},
 {{!RFC6347}}, {{!RFC5932}}, {{!RFC5288}}, {{!RFC6209}}, {{!RFC6367}}, {{!RFC8422}},
