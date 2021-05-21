@@ -23,6 +23,14 @@ informative:
       - ins: J. Somorovsky
       - ins: J. Mittmann
       - ins: J. Schwenk
+  ICA:
+    title: "Practical invalid curve attacks on TLS-ECDH"
+    target: https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.704.7932&rep=rep1&type=pdf
+    date: 2015-09-21
+    author:
+      - ins: T. Jager
+      - ins: J. Schwenk
+      - ins: J. Somorovsky
 
 author:
  -
@@ -64,13 +72,15 @@ respectively, and ephemeral and non-ephemeral elliptic curve DH algorithms are c
 ECDHE and ECDH, respectively {{?RFC4492}}.
 
 In general, non-ephemeral cipher suites are not recommended due to their lack of
-forward secrecy. However, as demonstrated by the {{Raccoon}} attack, public key
-reuse, either via non-ephemeral cipher suites or reused keys with ephemeral cipher
-suites, can lead to timing side channels that may leak connection secrets.
-(Note that Raccoon only applies to finite field DH cipher suites, and not those
-based on elliptic curves.) While these side channels can be avoided in implementations,
-doing so is demonstrably difficult given the prevalence of related side channels in
-TLS implementations.
+forward secrecy. However, as demonstrated by the {{Raccoon}} attack on finite-field
+DH, public key reuse, either via non-ephemeral cipher suites or reused keys with
+ephemeral cipher suites, can lead to timing side channels that may leak connection
+secrets. For elliptic curve DH, invalid curve attacks broadly follow the same
+pattern, where a long-lived secret is extracted using side channels {{ICA}},
+further demonstrating the security risk of reusing public keys. While both side
+channels can be avoided in implementations, experience shows that in practice,
+implementations may fail to thwart such attacks due to the complexity of the
+required mitigations.
 
 Given these problems, this document updates {{!RFC4346}}, {{!RFC5246}}, {{!RFC4162}},
 {{!RFC6347}}, {{!RFC5932}}, {{!RFC5288}}, {{!RFC6209}}, {{!RFC6367}}, {{!RFC8422}},
@@ -217,9 +227,11 @@ already considered bad practice since they do not provide forward secrecy. Howev
 Raccoon revealed that timing side channels in processing TLS premaster secrets may be
 exploited to reveal the encrypted premaster secret.
 
-Raccoon does not apply to non-ephemeral elliptic curve DH suites, since the same timing
-side channel does not exist. However, such re-use is still discouraged and thus deprecated
-in this document.
+For non-ephemeral elliptic curve DH cipher suites, invalid curve attacks
+similarly exploit side channels to extract the secret from a long-lived public
+key. These attacks have been shown to be practical against real-world TLS
+implementations {{ICA}}. Therefore, this document discourages the reuse of elliptic
+curve DH public keys.
 
 # Acknowledgments
 
