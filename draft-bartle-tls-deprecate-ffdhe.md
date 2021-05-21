@@ -230,10 +230,8 @@ exploited to reveal the encrypted premaster secret.
 For non-ephemeral elliptic curve DH cipher suites, invalid curve attacks
 similarly exploit side channels to extract the secret from a long-lived public
 key. These attacks have been shown to be practical against real-world TLS
-implementations {{ICA}}.
-
-Therefore, DH public key re-use, over any algebraic group, is discouraged and
-thus deprecated in this document.
+implementations {{ICA}}. Therefore, this document discourages the reuse of elliptic
+curve DH public keys.
 
 # Acknowledgments
 
