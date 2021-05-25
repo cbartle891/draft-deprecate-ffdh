@@ -1,7 +1,7 @@
 ---
-title: Deprecating FFDH(E) Ciphersuites in TLS
-abbrev: Deprecating FFDH(E)
-docname: draft-bartle-tls-deprecate-ffdhe-latest
+title: Deprecating FFDH Ciphersuites in TLS
+abbrev: Deprecating FFDH
+docname: draft-bartle-tls-deprecate-ffdh-latest
 date:
 category: std
 
