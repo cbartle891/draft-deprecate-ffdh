@@ -1,0 +1,553 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2021-06-13T01:09:11.800575+00:00",
+  "repo": "cbartle891/draft-deprecate-ffdh",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [],
+  "pulls": [
+    {
+      "number": 1,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTc5NDY2NTY0",
+      "title": "Add Nimrod Aviram as an author",
+      "url": "https://github.com/cbartle891/draft-deprecate-ffdh/pull/1",
+      "state": "MERGED",
+      "author": "cbartle891",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2021-02-24T17:08:31Z",
+      "updatedAt": "2021-02-24T17:09:51Z",
+      "baseRepository": "cbartle891/draft-deprecate-ffdh",
+      "baseRefName": "master",
+      "baseRefOid": "6bc949aca819717b233b1a9c1f71ceef3d32a56e",
+      "headRepository": "cbartle891/draft-deprecate-ffdh",
+      "headRefName": "cdb/add-nimrod",
+      "headRefOid": "9fb718f6608f69e4db657af5ace07b37f2d20971",
+      "closedAt": "2021-02-24T17:09:19Z",
+      "mergedAt": "2021-02-24T17:09:19Z",
+      "mergedBy": "cbartle891",
+      "mergeCommit": {
+        "oid": "f3b55b756e9b72217045f84ced05d8298defa6d0"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 2,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTc5NjI0MDQ2",
+      "title": "Add Filippo Valsorda as an author.",
+      "url": "https://github.com/cbartle891/draft-deprecate-ffdh/pull/2",
+      "state": "CLOSED",
+      "author": "cbartle891",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2021-02-24T21:32:29Z",
+      "updatedAt": "2021-02-24T21:34:35Z",
+      "baseRepository": "cbartle891/draft-deprecate-ffdh",
+      "baseRefName": "master",
+      "baseRefOid": "f3b55b756e9b72217045f84ced05d8298defa6d0",
+      "headRepository": "cbartle891/draft-deprecate-ffdh",
+      "headRefName": "cdb/add-filippo",
+      "headRefOid": "0afdab84c7c6e862458e1a43dacf2becce29e9d7",
+      "closedAt": "2021-02-24T21:34:01Z",
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 3,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTc5NjI5NjY5",
+      "title": "Add Filippo Valsorda as an author.",
+      "url": "https://github.com/cbartle891/draft-deprecate-ffdh/pull/3",
+      "state": "MERGED",
+      "author": "cbartle891",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2021-02-24T21:43:21Z",
+      "updatedAt": "2021-02-24T21:44:51Z",
+      "baseRepository": "cbartle891/draft-deprecate-ffdh",
+      "baseRefName": "master",
+      "baseRefOid": "f3b55b756e9b72217045f84ced05d8298defa6d0",
+      "headRepository": "cbartle891/draft-deprecate-ffdh",
+      "headRefName": "cdb/add-filippo",
+      "headRefOid": "7bf170f35566dd7023ca35ff63f93dc69522503a",
+      "closedAt": "2021-02-24T21:44:48Z",
+      "mergedAt": "2021-02-24T21:44:48Z",
+      "mergedBy": "cbartle891",
+      "mergeCommit": {
+        "oid": "2acefd6a0df635df624329b16abcb17611c003b5"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 4,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTc5OTc4MjIz",
+      "title": "Minor edits",
+      "url": "https://github.com/cbartle891/draft-deprecate-ffdh/pull/4",
+      "state": "MERGED",
+      "author": "nimia",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2021-02-25T10:16:10Z",
+      "updatedAt": "2021-03-03T10:04:30Z",
+      "baseRepository": "cbartle891/draft-deprecate-ffdh",
+      "baseRefName": "master",
+      "baseRefOid": "2acefd6a0df635df624329b16abcb17611c003b5",
+      "headRepository": "cbartle891/draft-deprecate-ffdh",
+      "headRefName": "nimia-patch-1",
+      "headRefOid": "670a4f08dc9653969621d95e5aa94e981f20b520",
+      "closedAt": "2021-03-03T10:04:30Z",
+      "mergedAt": "2021-03-03T10:04:30Z",
+      "mergedBy": "nimia",
+      "mergeCommit": {
+        "oid": "770ff1e79e55d7d2604fe98c6743f41eeef4ebbd"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NTk4ODEyMjQx",
+          "commit": {
+            "abbreviatedOid": "670a4f0"
+          },
+          "author": "cbartle891",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2021-02-25T17:19:06Z",
+          "updatedAt": "2021-02-25T17:19:06Z",
+          "comments": []
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NTk5NjEwOTgx",
+          "commit": {
+            "abbreviatedOid": "670a4f0"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2021-02-26T14:12:59Z",
+          "updatedAt": "2021-02-26T14:12:59Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTg1NDEyOTIy",
+      "title": "Added acknowledgement.",
+      "url": "https://github.com/cbartle891/draft-deprecate-ffdh/pull/5",
+      "state": "MERGED",
+      "author": "cbartle891",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Also made a couple minor proofreading changes.",
+      "createdAt": "2021-03-05T08:12:10Z",
+      "updatedAt": "2021-03-29T20:14:55Z",
+      "baseRepository": "cbartle891/draft-deprecate-ffdh",
+      "baseRefName": "master",
+      "baseRefOid": "770ff1e79e55d7d2604fe98c6743f41eeef4ebbd",
+      "headRepository": "cbartle891/draft-deprecate-ffdh",
+      "headRefName": "cdb/acknowledgement",
+      "headRefOid": "1debd9a299a3dbb1d29d5fe458a4765378537df9",
+      "closedAt": "2021-03-29T20:14:55Z",
+      "mergedAt": "2021-03-29T20:14:54Z",
+      "mergedBy": "cbartle891",
+      "mergeCommit": {
+        "oid": "d32ab5d04e0791c5847caa34311b64faefdff344"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NjA1NjE4NzQy",
+          "commit": {
+            "abbreviatedOid": "1debd9a"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2021-03-05T21:23:02Z",
+          "updatedAt": "2021-03-05T21:23:02Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTg1NzYwMDEy",
+      "title": "Fix publication date of Raccoon paper",
+      "url": "https://github.com/cbartle891/draft-deprecate-ffdh/pull/6",
+      "state": "MERGED",
+      "author": "cbartle891",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2021-03-05T17:16:12Z",
+      "updatedAt": "2021-03-29T20:15:10Z",
+      "baseRepository": "cbartle891/draft-deprecate-ffdh",
+      "baseRefName": "master",
+      "baseRefOid": "770ff1e79e55d7d2604fe98c6743f41eeef4ebbd",
+      "headRepository": "cbartle891/draft-deprecate-ffdh",
+      "headRefName": "cdb/fix-date",
+      "headRefOid": "2b431b70bcd234aada4a88da27eef4babf69ac09",
+      "closedAt": "2021-03-29T20:15:10Z",
+      "mergedAt": "2021-03-29T20:15:10Z",
+      "mergedBy": "cbartle891",
+      "mergeCommit": {
+        "oid": "29f57d23d14d82762e06581da62fd35ce59ceb3c"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NjA1NjE4MDEy",
+          "commit": {
+            "abbreviatedOid": "2b431b7"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2021-03-05T21:22:40Z",
+          "updatedAt": "2021-03-05T21:22:43Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "LOL",
+              "createdAt": "2021-03-05T21:22:40Z",
+              "updatedAt": "2021-03-05T21:22:43Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "id": "MDExOlB1bGxSZXF1ZXN0NjE5OTU4NTA2",
+      "title": "First draft of invalid curve attacks.",
+      "url": "https://github.com/cbartle891/draft-deprecate-ffdh/pull/7",
+      "state": "MERGED",
+      "author": "nimia",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2021-04-21T08:16:42Z",
+      "updatedAt": "2021-05-21T11:29:53Z",
+      "baseRepository": "cbartle891/draft-deprecate-ffdh",
+      "baseRefName": "master",
+      "baseRefOid": "29f57d23d14d82762e06581da62fd35ce59ceb3c",
+      "headRepository": "cbartle891/draft-deprecate-ffdh",
+      "headRefName": "invalid_curve",
+      "headRefOid": "7b1a3118bd07c623eb40ec2858a9fd29ce014fd3",
+      "closedAt": "2021-05-21T11:29:41Z",
+      "mergedAt": "2021-05-21T11:29:41Z",
+      "mergedBy": "nimia",
+      "mergeCommit": {
+        "oid": "6ffe4445fc8a378c9a30382429fe564f8a385bad"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NjQ2MTkzNTU3",
+          "commit": {
+            "abbreviatedOid": "7c7a2a8"
+          },
+          "author": "cbartle891",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2021-04-27T17:58:46Z",
+          "updatedAt": "2021-04-27T18:02:24Z",
+          "comments": [
+            {
+              "originalPosition": 31,
+              "body": "Nit: s/demostrating/demonstrating/",
+              "createdAt": "2021-04-27T17:58:46Z",
+              "updatedAt": "2021-04-28T10:10:19Z"
+            },
+            {
+              "originalPosition": 33,
+              "body": "How does the prevalence of related side channels in TLS implementations demonstrate that avoiding invalid curve attack side channels is difficult?",
+              "createdAt": "2021-04-27T17:59:28Z",
+              "updatedAt": "2021-04-28T10:10:19Z"
+            },
+            {
+              "originalPosition": 49,
+              "body": "Actually, we currently only say using ECDH is a \"SHOULD NOT.\" If it's subject to attacks equally bad as the Raccoon attack, should we change it to \"MUST NOT\"?",
+              "createdAt": "2021-04-27T18:02:15Z",
+              "updatedAt": "2021-04-28T10:10:19Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NjQ2ODc2NzE5",
+          "commit": {
+            "abbreviatedOid": "8ba13b7"
+          },
+          "author": "nimia",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2021-04-28T10:10:30Z",
+          "updatedAt": "2021-04-28T10:10:31Z",
+          "comments": [
+            {
+              "originalPosition": 31,
+              "body": "Done, thanks.",
+              "createdAt": "2021-04-28T10:10:31Z",
+              "updatedAt": "2021-04-28T10:10:31Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NjQ2ODc3MDIz",
+          "commit": {
+            "abbreviatedOid": "8ba13b7"
+          },
+          "author": "nimia",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2021-04-28T10:10:52Z",
+          "updatedAt": "2021-04-28T10:10:52Z",
+          "comments": [
+            {
+              "originalPosition": 33,
+              "body": "I switched to a more general wording, what do you think?",
+              "createdAt": "2021-04-28T10:10:52Z",
+              "updatedAt": "2021-04-28T10:10:52Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NjQ2ODgyODI2",
+          "commit": {
+            "abbreviatedOid": "8ba13b7"
+          },
+          "author": "nimia",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2021-04-28T10:17:22Z",
+          "updatedAt": "2021-04-28T10:17:23Z",
+          "comments": [
+            {
+              "originalPosition": 49,
+              "body": "I'm in favor of changing ECDH to MUST NOT, mainly because of forward secrecy. Do you think we could get consensus in the WG for this?\r\nArguably, invalid curve attacks are not equally as bad as Raccoon, since the mitigation is \"really simple\": it requires adding a bit of code, and there's no requirement for constant time implementation. However, experience with \"really simple\" mitigations in practice shows that even those are not always implemented at all or implemented correctly. ROBOT is one prominent example; also the CBC scanning paper.",
+              "createdAt": "2021-04-28T10:17:22Z",
+              "updatedAt": "2021-04-28T10:17:23Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NjQ3MzU1MTg2",
+          "commit": {
+            "abbreviatedOid": "8ba13b7"
+          },
+          "author": "cbartle891",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2021-04-28T17:47:36Z",
+          "updatedAt": "2021-04-28T17:47:36Z",
+          "comments": [
+            {
+              "originalPosition": 49,
+              "body": "> Do you think we could get consensus in the WG for this?\r\n\r\nHm, I'm not sure.\r\n\r\n> Arguably, invalid curve attacks are not equally as bad as Raccoon, since the mitigation is \"really simple\"\r\n\r\nIn that case, I'm fine with leaving it as \"SHOULD NOT.\"",
+              "createdAt": "2021-04-28T17:47:36Z",
+              "updatedAt": "2021-04-28T17:47:36Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NjQ3MzU2MzMy",
+          "commit": {
+            "abbreviatedOid": "8ba13b7"
+          },
+          "author": "cbartle891",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2021-04-28T17:48:54Z",
+          "updatedAt": "2021-04-28T17:48:54Z",
+          "comments": [
+            {
+              "originalPosition": 51,
+              "body": "If we're not going to say people \"MUST NOT\" use ECDH, we can't use the word \"deprecate,\" can we?",
+              "createdAt": "2021-04-28T17:48:54Z",
+              "updatedAt": "2021-04-28T17:48:54Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NjQ3MzU3OTg0",
+          "commit": {
+            "abbreviatedOid": "8ba13b7"
+          },
+          "author": "cbartle891",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2021-04-28T17:50:43Z",
+          "updatedAt": "2021-04-28T17:50:43Z",
+          "comments": [
+            {
+              "originalPosition": 33,
+              "body": "Looks good!",
+              "createdAt": "2021-04-28T17:50:43Z",
+              "updatedAt": "2021-04-28T17:50:43Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NjQ3OTk2MjQz",
+          "commit": {
+            "abbreviatedOid": "8ba13b7"
+          },
+          "author": "nimia",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2021-04-29T09:31:06Z",
+          "updatedAt": "2021-04-29T09:31:07Z",
+          "comments": [
+            {
+              "originalPosition": 51,
+              "body": "Right. Maybe this?\r\nTherefore, DH public key re-use is discouraged in this document, and deprecated in cases where the security risk cannot be reasonably mitigated.",
+              "createdAt": "2021-04-29T09:31:07Z",
+              "updatedAt": "2021-04-29T09:31:07Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NjQ4MTc1OTUz",
+          "commit": {
+            "abbreviatedOid": "8ba13b7"
+          },
+          "author": "cbartle891",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2021-04-29T13:02:11Z",
+          "updatedAt": "2021-04-29T13:02:11Z",
+          "comments": [
+            {
+              "originalPosition": 51,
+              "body": "I think we need to be more specific. We've already stated in the first paragraph of this section that FFDH is prohibited, so maybe just say \"Therefore, this document discourages the reuse of elliptic curve DH public keys.\"",
+              "createdAt": "2021-04-29T13:02:11Z",
+              "updatedAt": "2021-04-29T13:02:12Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NjY1MDYzOTc5",
+          "commit": {
+            "abbreviatedOid": "7b1a311"
+          },
+          "author": "cbartle891",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2021-05-21T03:38:58Z",
+          "updatedAt": "2021-05-21T03:38:58Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "id": "MDExOlB1bGxSZXF1ZXN0NjUwMTgzMTQ2",
+      "title": "Change title from 'FFDH(E)' to 'FFDH'.",
+      "url": "https://github.com/cbartle891/draft-deprecate-ffdh/pull/8",
+      "state": "MERGED",
+      "author": "cbartle891",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "This title doesn't fully encompass the content of the draft (i.e. it leaves out discouraging the use of ECDH and reuse of FFDHE keys), but since the other content doesn't involve deprecation, I'm not sure they need to be mentioned in the title.",
+      "createdAt": "2021-05-21T18:10:34Z",
+      "updatedAt": "2021-05-25T20:29:26Z",
+      "baseRepository": "cbartle891/draft-deprecate-ffdh",
+      "baseRefName": "master",
+      "baseRefOid": "6ffe4445fc8a378c9a30382429fe564f8a385bad",
+      "headRepository": "cbartle891/draft-deprecate-ffdh",
+      "headRefName": "cdb/change-title",
+      "headRefOid": "63b220532d6239f79c0f4731b3c6032ed0c88541",
+      "closedAt": "2021-05-25T20:29:18Z",
+      "mergedAt": "2021-05-25T20:29:18Z",
+      "mergedBy": "cbartle891",
+      "mergeCommit": {
+        "oid": "b07f4c2394efb8b2e0bbdb7730579c406ea23a94"
+      },
+      "comments": [
+        {
+          "author": "nimia",
+          "authorAssociation": "COLLABORATOR",
+          "body": "LGTM, thanks for your work on this Carrick :-)",
+          "createdAt": "2021-05-25T20:00:36Z",
+          "updatedAt": "2021-05-25T20:00:36Z"
+        }
+      ],
+      "reviews": []
+    }
+  ]
+}
