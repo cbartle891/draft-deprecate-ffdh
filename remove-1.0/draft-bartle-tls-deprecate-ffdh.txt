@@ -5,9 +5,9 @@
 Network Working Group                                          C. Bartle
 Internet-Draft                                               Apple, Inc.
 Intended status: Standards Track                               N. Aviram
-Expires: 22 November 2021                                               
+Expires: 15 January 2022                                                
                                                              F. Valsorda
-                                                             21 May 2021
+                                                            14 July 2021
 
 
                   Deprecating FFDH Ciphersuites in TLS
@@ -46,7 +46,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 22 November 2021.
+   This Internet-Draft will expire on 15 January 2022.
 
 Copyright Notice
 
@@ -117,9 +117,9 @@ Table of Contents
 
 2.  Non-Ephemeral Diffie Hellman
 
-   Clients MUST NOT offer non-ephemeral DH cipher suites in TLS 1.0,
-   1.1, and 1.2 connections.  This includes all cipher suites listed in
-   the following table.
+   Clients MUST NOT offer non-ephemeral DH cipher suites in TLS 1.2
+   connections.  This includes all cipher suites listed in the following
+   table.
 
      +==========================================+====================+
      | Ciphersuite                              | Reference          |
@@ -251,9 +251,9 @@ Table of Contents
 
                                   Table 1
 
-   Clients SHOULD NOT offer non-ephemeral ECDH cipher suites in TLS 1.0,
-   1.1, and 1.2 connections.  This includes all cipher suites listed in
-   the following table.
+   Clients SHOULD NOT offer non-ephemeral ECDH cipher suites in TLS 1.2
+   connections.  This includes all cipher suites listed in the following
+   table.
 
    +=============================================+====================+
    | Ciphersuite                                 | Reference          |
