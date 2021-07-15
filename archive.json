@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-07-13T01:09:20.165768+00:00",
+  "timestamp": "2021-07-15T01:08:24.530328+00:00",
   "repo": "cbartle891/draft-deprecate-ffdh",
   "labels": [
     {
@@ -547,6 +547,32 @@
           "updatedAt": "2021-05-25T20:00:36Z"
         }
       ],
+      "reviews": []
+    },
+    {
+      "number": 9,
+      "id": "MDExOlB1bGxSZXF1ZXN0NjkwMjU3NzM1",
+      "title": "Remove mention of TLS 1.0/1.1 since they've been deprecated, per John Mattsson's suggestion.",
+      "url": "https://github.com/cbartle891/draft-deprecate-ffdh/pull/9",
+      "state": "OPEN",
+      "author": "cbartle891",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2021-07-14T22:11:37Z",
+      "updatedAt": "2021-07-14T22:11:52Z",
+      "baseRepository": "cbartle891/draft-deprecate-ffdh",
+      "baseRefName": "master",
+      "baseRefOid": "b07f4c2394efb8b2e0bbdb7730579c406ea23a94",
+      "headRepository": "cbartle891/draft-deprecate-ffdh",
+      "headRefName": "cdb/remove-1.0",
+      "headRefOid": "c1b4d096aa254ad1eb30cc86658fefe6e849ad59",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
       "reviews": []
     }
   ]
