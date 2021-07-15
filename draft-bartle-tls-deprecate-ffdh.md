@@ -93,8 +93,9 @@ and discouraging their use.
 
 # Non-Ephemeral Diffie Hellman {#non-ephemeral}
 
-Clients MUST NOT offer non-ephemeral DH cipher suites in TLS 1.0, 1.1, and 1.2
-connections. This includes all cipher suites listed in the following table.
+Clients MUST NOT offer non-ephemeral DH cipher suites in TLS 1.2 connections. (Note that
+TLS 1.0 and 1.1 are deprecated by {{!RFC8996}}.) This includes all cipher suites listed
+in the following table.
 
 | Ciphersuite  | Reference |
 |:-|:-|
@@ -161,8 +162,9 @@ connections. This includes all cipher suites listed in the following table.
 | TLS_DH_anon_WITH_CAMELLIA_128_GCM_SHA256 | {{!RFC6367}} |
 | TLS_DH_anon_WITH_CAMELLIA_256_GCM_SHA384 | {{!RFC6367}} |
 
-Clients SHOULD NOT offer non-ephemeral ECDH cipher suites in TLS 1.0, 1.1, and 1.2
-connections. This includes all cipher suites listed in the following table.
+Clients SHOULD NOT offer non-ephemeral ECDH cipher suites in TLS 1.2
+connections. (Note that TLS 1.0 and 1.1 are deprecated by {{!RFC8996}}.) This
+includes all cipher suites listed in the following table.
 
 | Ciphersuite  | Reference |
 |:-|:-|
