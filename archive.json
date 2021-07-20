@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-07-18T01:10:41.173910+00:00",
+  "timestamp": "2021-07-20T01:13:28.574591+00:00",
   "repo": "cbartle891/draft-deprecate-ffdh",
   "labels": [
     {
@@ -554,24 +554,26 @@
       "id": "MDExOlB1bGxSZXF1ZXN0NjkwMjU3NzM1",
       "title": "Mention that 1.0/1.1 have been deprecated, per John Mattsson's suggestion.",
       "url": "https://github.com/cbartle891/draft-deprecate-ffdh/pull/9",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "cbartle891",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2021-07-14T22:11:37Z",
-      "updatedAt": "2021-07-15T20:37:57Z",
+      "updatedAt": "2021-07-19T16:24:47Z",
       "baseRepository": "cbartle891/draft-deprecate-ffdh",
       "baseRefName": "master",
       "baseRefOid": "b07f4c2394efb8b2e0bbdb7730579c406ea23a94",
       "headRepository": "cbartle891/draft-deprecate-ffdh",
       "headRefName": "cdb/remove-1.0",
       "headRefOid": "ff4f9b37075985fa5607053f4b015196f1cb995e",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2021-07-19T16:24:47Z",
+      "mergedAt": "2021-07-19T16:24:47Z",
+      "mergedBy": "cbartle891",
+      "mergeCommit": {
+        "oid": "5814ae2660edb179a64a1248ad177ffe4185081e"
+      },
       "comments": [
         {
           "author": "nimia",
