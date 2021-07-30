@@ -392,10 +392,7 @@ Table of Contents
               RFC 4162, DOI 10.17487/RFC4162, August 2005,
               <https://datatracker.ietf.org/doc/html/rfc4162>.
 
-   [RFC4346]  Dierks, T. and E. Rescorla, "The Transport Layer Security
-              (TLS) Protocol Version 1.1", RFC 4346,
-              DOI 10.17487/RFC4346, April 2006,
-              <https://datatracker.ietf.org/doc/html/rfc4346>.
+   [RFC4346]  "*** BROKEN REFERENCE ***".
 
    [RFC5246]  Dierks, T. and E. Rescorla, "The Transport Layer Security
               (TLS) Protocol Version 1.2", RFC 5246,
