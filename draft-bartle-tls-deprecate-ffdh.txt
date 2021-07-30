@@ -5,9 +5,9 @@
 Network Working Group                                          C. Bartle
 Internet-Draft                                               Apple, Inc.
 Intended status: Standards Track                               N. Aviram
-Expires: 20 January 2022                                                
+Expires: 31 January 2022                                                
                                                              F. Valsorda
-                                                            19 July 2021
+                                                            30 July 2021
 
 
                   Deprecating FFDH Ciphersuites in TLS
@@ -15,10 +15,10 @@ Expires: 20 January 2022
 
 Abstract
 
-   This document deprecates and discourages the use of finite field and
-   elliptic curve Diffie Hellman cipher suites that have known
-   vulnerabilities or improper security properties when implemented
-   incorrectly.
+   This document deprecates the use of finite field Diffie Hellman
+   cipher suites and discourages the use of elliptic curve Diffie
+   Hellman cipher suites, both of which have known vulnerabilities or
+   improper security properties when implemented incorrectly.
 
 Discussion Venues
 
@@ -46,7 +46,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 20 January 2022.
+   This Internet-Draft will expire on 31 January 2022.
 
 Copyright Notice
 
