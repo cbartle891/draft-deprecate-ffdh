@@ -53,9 +53,10 @@ author:
 
 --- abstract
 
-This document deprecates and discourages the use of finite field and elliptic curve
-Diffie Hellman cipher suites that have known vulnerabilities or improper security
-properties when implemented incorrectly.
+This document deprecates the use of finite field Diffie Hellman cipher suites
+and discourages the use of elliptic curve Diffie Hellman cipher suites, both of
+which have known vulnerabilities or improper security properties when implemented
+incorrectly.
 
 --- middle
 
